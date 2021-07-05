@@ -1,21 +1,17 @@
-{
-    "debug": "False",
-    
+{    
     "guildname": "<guildname>", 
     "guildid": "<guildid>",
-    
-    "verified": ["Verified", "Averred"],
-    
+
+    "verified": ["Verified"],
+
     "lockrole": "Lockdown",
-    
-    "botid": "<botid>",
-    
+
     "ruleschan": 0, 
     "general": 0, 
     "greetchan": 0, 
     "colorchan": 0,
     "roleschan": 0,
-    
+
     "chanlog": 0,
     "msglog": 0, 
     "rolelog": 0,
@@ -24,20 +20,12 @@
     "watchlog": 0, 
 
     "publiclog": 0,
-    
+
     "noimagechannels": [], 
     "nologchannels": [], 
     "colorchannels": [], 
-    
-    
-    
+
     "emojikeys": {
     
-    },
-    
-    
-    "repterm": "Reputation",
-    "rep": ["thank"],
-    "cept": ["thanksgiving", "thanking"]
-    
     }
+}
