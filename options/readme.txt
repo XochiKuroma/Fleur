@@ -5,6 +5,9 @@ botid: The running bot's user ID.
 
 # serverID.json
 
+guildname: Automatically generated when Fleur runs for the first time.
+guildid: Automatically generated when Fleur runs for the first time.
+
 verified: Verification roles, for gated servers. If not used, leave empty. Provide as role names, caps sensitive. If no role name is passed as an argument to .verify, slot 0 will be granted by default.
 
 lockdown: Role for .lockdown command, which essentially jails a user. Should be high in role heirarchy and restrictive at channel level permissions.
@@ -31,3 +34,4 @@ colorchannels: Channels to restrict the color command to.
 emojikeys: Keyword/Emoji pairs
 Adds emoji reactions to messages if the contents match a regex.
 Ex: "aw+oo": 123456789012345678
+Ex: "<role ID>": <emoji ID>
